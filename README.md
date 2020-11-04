@@ -1,3 +1,3 @@
 # Novelas
 
-### Classe que vai ser responsavel pela listagem das novelas.
+- Esse commit é para mostrar como se comportam as alteações no git.
