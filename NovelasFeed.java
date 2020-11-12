@@ -1,26 +1,37 @@
+import java.util.ArrayList;
+
+/**
+* Classe para descrever os atributos do feed de novelas.
+* @author Jeferson Costa Silva
+* @author Juliano Mendonça Lasmar
+* @author Marcus Viniccius Souza de Freitas
+**/
+
 public class NovelasFeed {
-   /** @email Email da avaliacao **/
+  
+  // Definições de atributos
+  /** @titulo Titulo da novela **/
   public String titulo;
 
-  /** Nota da avaliacao **/
+  /** @capitulo Capitulo da novela **/
   public int capitulo;
   
-  /** Comentario da avaliacao **/
+  /** @resumo rResumo da novela **/
   public String resumo;
   
-   /** **/
+   /** Pesquisa titulos **/
   public ArrayList<String> pesquisarTitulos(String nomeParcial) {
     //TODO Implementar método
     return list;
   }
 
-   /** **/
-  public ArrayList<int> pesquisarCapitulo(int numCapitulo) {
+   /** Pesquisa capitulos **/
+  public ArrayList<Integer> pesquisarCapitulo(int numCapitulo) {
     //TODO Implementar método
     return list;
   }
 
-  /** **/
+  /** Lista resumo **/
   public ArrayList<String> listarResumo() {
     //TODO Implementar método
     return list;

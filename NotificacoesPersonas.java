@@ -1,10 +1,18 @@
+/**
+* Classe para descrever os atributos das notificações.
+* @author Jeferson Costa Silva
+* @author Juliano Mendonça Lasmar
+* @author Marcus Viniccius Souza de Freitas
+**/
+
 public class NotificacoesPersonas {
   
-  /** @email Email da avaliacao **/
-  /** Notificacao ao usuario **/
+  // Definições de atributos
+  /** @notificacao Notificação ao usuário **/
   public String notificacao;
-  /** **/
-  public boolean notificarPersona(String notificacao, Persona p) {
+
+  /** Notifica personas **/
+  public boolean notificarPersona(String notificacao) {
     return true;
   }
 

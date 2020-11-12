@@ -1,23 +1,33 @@
-import java.util.*;
+import java.util.ArrayList;
+
+/**
+* Classe para descrever os atributos da avaliação.
+* @author Jeferson Costa Silva
+* @author Juliano Mendonça Lasmar
+* @author Marcus Viniccius Souza de Freitas
+**/
 
 public class AvaliacaoApp {
   
-  /** @email Email da avaliacao **/
+  // Definições de atributos
+  /** @email Email da pessoa **/
   public String email;
 
-  /** Nota da avaliacao **/
+  /** @nota Nota da pessoa **/
   private short nota;
   
-  /** Comentario da avaliacao **/
+  /** @comentario Comentario da avaliacao **/
   private String comentario;
 
-  public boolean cadastrarAvalicao(String avaliacao, Persona p) {
-    return true
+  /** Casdastro avaliacao **/
+  public boolean cadastrarAvalicao(String avaliacao) {
+    return true;
   }
   
+  /** lista avaliacao **/
   public ArrayList<String> ListarAvaliacoes() {
 
-    "select a.nome from avalicoes as a inner join persona as p on a.email = p.email where p.email = \"chuchubeleza@gmail.com\""
+    // "select a.nome from avalicoes as a inner join persona as p on a.email = p.email where p.email = \"chuchubeleza@gmail.com\""
 
     return list;
   }
