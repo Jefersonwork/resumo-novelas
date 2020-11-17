@@ -34,12 +34,12 @@ public class Personas {
    /** Listar estatistica **/
   public String estatisticasPersonas() {
     //TODO Implementar método
-    return stats;
+    return "stats";
   }
 
   /** Calcular idade **/
   public int calculaIdade() {
     //TODO Implementar método
-    return idade;
+    return 10;
   }
 }

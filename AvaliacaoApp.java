@@ -14,21 +14,24 @@ public class AvaliacaoApp {
   public String email;
 
   /** @nota Nota da pessoa **/
-  private short nota;
+  private float nota;
   
   /** @comentario Comentario da avaliacao **/
-  private String comentario;
+  private ArrayList<String> comentarios;
+
+  public AvaliacaoApp() {
+    comentarios = new ArrayList<String>();
+  }
+
 
   /** Casdastro avaliacao **/
-  public boolean cadastrarAvalicao(String avaliacao) {
+  public boolean adicionarComentario(String avaliacao) {
+    this.comentarios.add(avaliacao);
     return true;
   }
   
   /** lista avaliacao **/
-  public ArrayList<String> ListarAvaliacoes() {
-
-    // "select a.nome from avalicoes as a inner join persona as p on a.email = p.email where p.email = \"chuchubeleza@gmail.com\""
-
-    return list;
+  public ArrayList<String> listarAvaliacoes() {
+    return this.comentarios;
   }
 }
