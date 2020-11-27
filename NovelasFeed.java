@@ -22,19 +22,19 @@ public class NovelasFeed {
    /** Pesquisa titulos **/
   public ArrayList<String> pesquisarTitulos(String nomeParcial) {
     //TODO Implementar método
-    return list;
+    return new ArrayList<>();
   }
 
    /** Pesquisa capitulos **/
   public ArrayList<Integer> pesquisarCapitulo(int numCapitulo) {
     //TODO Implementar método
-    return list;
+    return new ArrayList<>();
   }
 
   /** Lista resumo **/
   public ArrayList<String> listarResumo() {
     //TODO Implementar método
-    return list;
+    return new ArrayList<>();
   }
 
   
