@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AvaliacaoAppTest {
@@ -8,7 +6,6 @@ class AvaliacaoAppTest {
     void cadastrarAvalicao() {
         Personas p = new Personas();
         p.email = "emaillegal@email.com";
-        float nota  = 5.23f;
         String comentario = "O filme era legal, mas o cara morre no final.";
 
         AvaliacaoApp a = new AvaliacaoApp();
